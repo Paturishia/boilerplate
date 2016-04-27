@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
-    "build": "gulp build --production"
+    "build": "gulp build --production",
+    "test": "gulp test"
   },
   "author": "UserZoom R+D Team <rd@userzoom.com>",
   "license": "ISC",
