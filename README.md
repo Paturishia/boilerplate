@@ -1,2 +1,2 @@
-# boilerplate
-Boilerplate test
+# components-playground
+I'm a components playground
