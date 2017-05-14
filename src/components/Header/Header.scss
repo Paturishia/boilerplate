@@ -1,4 +1,46 @@
-.route--active {
-  font-weight: bold;
-  text-decoration: underline;
+@import './src/styles/variables';
+
+.header {
+  width: 100%;
+  background: #1d508d;
+  overflow: visible;
+  height: 55px;
+  left: 0;
+  right: auto;
+
+  .logo {
+    float: left;
+    background: $white;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .nav-container {
+    float: left;
+    list-style: none;
+    margin: 0;
+
+    li {
+      float: left;
+      margin-right: 10px;
+
+      a {
+        vertical-align: top;
+        display: inline-block;
+        color: $main_menu_primary;
+        text-decoration: none;
+        font-size: 0.92857rem;
+        padding: 21px 4px 18px;
+        text-transform: uppercase;
+      }
+    }
+
+    .route--active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
 }
