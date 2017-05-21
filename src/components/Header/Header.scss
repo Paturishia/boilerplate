@@ -10,12 +10,20 @@
 
   .logo {
     float: left;
-    background: $white;
     width: 100px;
     height: 35px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 20px;
+    font-family: $covered;
+    font-size: 2.3em;
+    font-weight: 400;
+    color: $white;
+    text-transform: uppercase;
+
+    &:before {
+      content: "Geniuz";
+    }
   }
 
   .nav-container {
@@ -40,7 +48,7 @@
 
     .route--active {
       font-weight: bold;
-      text-decoration: underline;
+      color: $white;
     }
   }
 }

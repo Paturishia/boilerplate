@@ -11,7 +11,7 @@ export const CoreLayout = ({ children }) => (
     {/* END - HEADER */}
 
     {/* CONTENT */}
-    <div className="core-layout__viewport">
+    <div className="content">
       {children}
     </div>
   </div>

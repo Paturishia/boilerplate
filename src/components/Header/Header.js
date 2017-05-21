@@ -7,13 +7,18 @@ export const Header = () => (
     <div className="logo"></div>
     <ul className="nav-container">
       <li>
-        <IndexLink to='/' activeClassName='route--active'>
-          Style Guide
+        <IndexLink to='/components'>
+          Components
         </IndexLink>
       </li>
       <li>
-        <IndexLink to='/documentation'>
-          Documentation
+        <IndexLink to='/' activeClassName='route--active'>
+          Getting Started
+        </IndexLink>
+      </li>
+      <li>
+        <IndexLink to='/styleguide'>
+          Style Guide
         </IndexLink>
       </li>
     </ul>
